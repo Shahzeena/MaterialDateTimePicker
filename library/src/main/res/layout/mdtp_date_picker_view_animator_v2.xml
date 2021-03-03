@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,13 +13,14 @@
      limitations under the License.
 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="wrap_content"
-    android:layout_width="wrap_content">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
     <com.wdullaer.materialdatetimepicker.date.AccessibleDateAnimator
         android:id="@+id/mdtp_animator"
         android:layout_width="@dimen/mdtp_date_picker_component_width_v2"
         android:layout_height="@dimen/mdtp_date_picker_view_animator_height_v2"
-        android:gravity="center"
         android:clipChildren="false"
-        android:clipToPadding="false"/>
+        android:clipToPadding="false"
+        android:gravity="center" />
 </FrameLayout>

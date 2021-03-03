@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2016 Wouter Dullaert
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,17 +13,16 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License
   -->
-<com.wdullaer.materialdatetimepicker.VerticalTextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.wdullaer.materialdatetimepicker.VerticalTextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/mdtp_time_picker_header"
-    android:visibility="gone"
     android:layout_width="@dimen/mdtp_date_picker_title_height"
     android:layout_height="match_parent"
-    android:paddingTop="@dimen/mdtp_date_picker_title_padding"
+    android:background="@color/mdtp_accent_color_dark"
     android:gravity="bottom|center"
     android:includeFontPadding="false"
-    android:textSize="@dimen/mdtp_time_picker_header_text_size"
-    android:textAllCaps="@bool/mdtp_title_all_caps"
     android:maxLines="1"
+    android:paddingTop="@dimen/mdtp_date_picker_title_padding"
+    android:textAllCaps="@bool/mdtp_title_all_caps"
     android:textColor="@color/mdtp_white"
-    android:background="@color/mdtp_accent_color_dark" />
+    android:textSize="@dimen/mdtp_time_picker_header_text_size"
+    android:visibility="gone" />
